@@ -3,10 +3,10 @@
 pkgname=core-rate-mirrors
 pkgver=23
 pkgrel=1
-# groups=(cachyos)
+# groups=()
 arch=('any')
 install=$pkgname.install
-url="https://github.com/archlatam/core-rate-mirrors.git"
+url="https://github.com/archlatam/core-rate-mirrors"
 license=(GPL-1.0-only)
 pkgdesc='Core - Rate mirrors service'
 depends=(rate-mirrors)

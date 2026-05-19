@@ -31,7 +31,7 @@ echo "==> Ranking Arch Linux mirrors..."
 if rate-mirrors \
   --allow-root \
   --save "$TMPFILE" \
-  --top-mirrors-number 10 \
+  --max-mirrors-to-output 10 \
   arch; then
 
   install -m644 \
